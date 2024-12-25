@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+</head>
+
+<body>
+    <form action="calculadora.php" method="post">
+        <p>Digite dois números para calcular</p>
+
+        <p>N1:
+            <input type="number" name="num1">
+        </p>
+
+        <p>N2:
+            <input type="number" name="num2">
+
+        </p>
+        <p>
+            <input type="radio" name="operacao" value="soma" />Somar
+            <input type="radio" name="operacao" value="subtrai" />Subtrair
+            <input type="radio" name="operacao" value="multiplica" />Multiplica
+            <input type="radio" name="operacao" value="divide" />Dividir
+        </p>
+        <p>
+            <input type="submit" name="Calcular" id="calcular">
+        </p>
+    </form>
+</body>
+
+</html>
